@@ -1,0 +1,28 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    
+    h1 Server Error
+      h2= error.status + " " + error.message
+    //h2= 
+    
+    p Are you lost buddy? 
+      a(href='/')  Click here to return to the homepage
+    
+    p
+      img(src='/images/jt.gif')
+      
+
+        
+      
+    
+    p Additional details below for nerds:
+    pre= error.stack
+    
+
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid

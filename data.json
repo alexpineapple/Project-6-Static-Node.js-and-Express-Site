@@ -1,0 +1,90 @@
+{
+
+	"projects": [
+    {
+      "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "For this first project, you'll create an app that displays random famous quotes each time a button is clicked. You will select your own quotes from famous historical figures, artists, scientists, celebrities, etc.",
+      "technologies": [
+        "Javascriptt",
+        "CSS",
+        "HTML",
+        "Coffee"
+      ],
+      "live_link": "TODOOO",
+      "github_link": "https://github.com/alexpineapple/Project-1--A-Random-Quote-Generator.git",
+      "image_urls": [
+        "/images/p0-1.png",
+        "/images/helloThere.png",
+        "/images/p0-2.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination and Filtering",
+      "description": "In this project, you'll use a common web development technique known as “pagination” to enhance the usability of a web page.\nYou'll start with a file that contains information for 42 students, including name, email, and picture. You'll start by using your JavaScript skills to display the first nine students on the page. Then you will add navigation, also known as pagination buttons, that the user can click to display different pages of students.",
+      "technologies": [
+        "Javascript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "TODOOO",
+      "github_link": "https://github.com/alexpineapple/Project-2-Data-Pagination-and-Filtering.git",
+      "image_urls": [
+        "/images/p1-1.png",
+        "/images/p1-2.png",
+				"/images/p1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "OOP Game Show App",
+      "description": "Using the supplied HTML and CSS files, you'll add your own JavaScript to make the form more user-friendly by: \n\nAdding customized and conditional behavior and interactivity\nValidating user input and providing helpful error messages when the user enters invalid information into the form fields.\n\nProject contains real-time error messages for all required fields (*), including conditional error messages depending if they are left blank or not",
+      "technologies": [
+        "Javascript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "TODOOO",
+      "github_link": "https://github.com/alexpineapple/Project-3-Interactive-Form.git",
+      "image_urls": [
+        "/images/p2-1.png",
+        "/images/p2-2.png",
+				"/images/p2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "In this project, you'll create a browser-based, word guessing game: Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard",
+      "technologies": [
+        "Javascript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "TODOOO",
+      "github_link": "https://github.com/alexpineapple/Project-4-OOP-Game-Show-App.git",
+      "image_urls": [
+        "/images/p3-1.png",
+        "/images/p3-2.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "For this project, you'll build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other.\nYou’ll use the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and use that data to build a prototype for an Awesome Startup employee directory.\nYou’ll request a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+      "technologies": [
+        "Javascript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "TODOOO",
+      "github_link": "https://github.com/alexpineapple/Project-5-Public-API-Requests.git",
+      "image_urls": [
+        "/images/p4-1.png",
+        "/images/p4-2.png",
+				"/images/p4-3.png"
+      ]
+    }
+  ]
+}
