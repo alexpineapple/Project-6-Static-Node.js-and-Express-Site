@@ -11,7 +11,7 @@
         "HTML",
         "Coffee"
       ],
-      "live_link": "TODOOO",
+      "live_link": "https://alexpineapple.github.io/Project-1--A-Random-Quote-Generator/",
       "github_link": "https://github.com/alexpineapple/Project-1--A-Random-Quote-Generator.git",
       "image_urls": [
         "/images/p0-1.png",
@@ -28,7 +28,7 @@
         "CSS",
         "HTML"
       ],
-      "live_link": "TODOOO",
+      "live_link": "https://alexpineapple.github.io/Project-2-Data-Pagination-and-Filtering/",
       "github_link": "https://github.com/alexpineapple/Project-2-Data-Pagination-and-Filtering.git",
       "image_urls": [
         "/images/p1-1.png",
@@ -38,14 +38,14 @@
     },
     {
       "id": 2,
-      "project_name": "OOP Game Show App",
+      "project_name": "Interactive Form",
       "description": "Using the supplied HTML and CSS files, you'll add your own JavaScript to make the form more user-friendly by: \n\nAdding customized and conditional behavior and interactivity\nValidating user input and providing helpful error messages when the user enters invalid information into the form fields.\n\nProject contains real-time error messages for all required fields (*), including conditional error messages depending if they are left blank or not",
       "technologies": [
         "Javascript",
         "CSS",
         "HTML"
       ],
-      "live_link": "TODOOO",
+      "live_link": "https://alexpineapple.github.io/Project-3-Interactive-Form/",
       "github_link": "https://github.com/alexpineapple/Project-3-Interactive-Form.git",
       "image_urls": [
         "/images/p2-1.png",
@@ -62,7 +62,7 @@
         "CSS",
         "HTML"
       ],
-      "live_link": "TODOOO",
+      "live_link": "https://alexpineapple.github.io/Project-4-OOP-Game-Show-App/",
       "github_link": "https://github.com/alexpineapple/Project-4-OOP-Game-Show-App.git",
       "image_urls": [
         "/images/p3-1.png",
@@ -78,12 +78,31 @@
         "CSS",
         "HTML"
       ],
-      "live_link": "TODOOO",
+      "live_link": "https://alexpineapple.github.io/Project-5-Public-API-Requests/",
       "github_link": "https://github.com/alexpineapple/Project-5-Public-API-Requests.git",
       "image_urls": [
         "/images/p4-1.png",
         "/images/p4-2.png",
 				"/images/p4-3.png"
+      ]
+    },
+		{
+      "id": 5,
+      "project_name": "Static Node.js and Express Site",
+      "description": "In this project, you'll create a gorgeous portfolio site to showcase the great projects you've built. The site will contain a modern landing page, an about page where you'll have a chance to share contact info, practice your elevator pitch and talk a little about yourself, and a series of project pages to show off and detail at least your first five projects from this Techdegree.",
+      "technologies": [
+        "Javascript",
+        "CSS",
+        "HTML",
+				"Express JS",
+				"Pug"
+      ],
+      "live_link": "../",
+      "github_link": "https://github.com/alexpineapple/Project-6-Static-Node.js-and-Express-Site.git",
+      "image_urls": [
+        "/images/p5-1.png",
+        "/images/p5-2.png",
+				"/images/p5-3.png"
       ]
     }
   ]

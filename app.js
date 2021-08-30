@@ -37,26 +37,34 @@ app.get('/project/:id', function (req, res) {
 
   //still here? you're an error and will be dealt with
   const err = new Error("Project Not Found");
-  err.status = 404;
-  res.render('missing');
+  err.status = 500;
+  res.render('error', { error:err });
+  console.log("Encountered an error: " + err.status + " " + err.message)
 });
 
 //404 error handling section----------------
 app.use((req, res, next) => {
   const err = new Error("Not Found");
   err.status = 404;
-  next(err);
-
+  res.render('page-not-found', { error:err });
+  console.log("Encountered an error: " + err.status + " " + err.message)
 });
 
 //global error handler----------------
 app.use((err, req, res, next) => {
 
-  if (err) {
-    //console.log("Global error handler called", err);
+  //ensure that there is an err.status property and an err.message property
+  if (!(err.status)) {
+    err.status = "Unknown Error";
   }
+  if (!(err.message)) {
+    err.status = "Unknown Error Message";
+  }
+
   res.locals.error = err;
-  res.render('error');
+  console.log("Global error handler called! " + err.status + " " + err.message)
+  //render the error page!
+  res.render('error', { error:err });
 });
 
 
